@@ -50,7 +50,7 @@
                 method: "PUT"
             });
             fetch("https://play.blooket.com/api/users/add-rewards", {
-                body: JSON.stringify({ t, name, addedTokens: 500, addedXp: 300 }),
+                body: JSON.stringify({ t, name, addedTokens: 50000, addedXp: 3000 }),
                 credentials: "include",
                 method: "PUT"
             }).then(x => x.json())
